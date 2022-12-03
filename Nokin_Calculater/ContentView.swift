@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Nokin_Calculater
 //
-//  Created by geo on 2022/12/03.
+//  Created by Mirai on 2022/12/03.
 //
 //
 
@@ -14,7 +14,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("DAn")
+            Text("Dan")
         }
         .padding()
     }
