@@ -11,6 +11,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Image(systemName: "blackboard")
+                    .imageScale(.)
             Text("Let’s look for a solution !")
         }
         .padding()
