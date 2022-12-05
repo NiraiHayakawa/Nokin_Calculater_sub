@@ -19,12 +19,23 @@ struct ContentView: View {
             
         }
     }
-    
+    let vc = self.storyboard?.instantiateViewController(withIdentifier: "toNext") as! NextViewController
+self.present(vc, animated: true)
     
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            NavigationStack{
+                List {
+                    Text("1次方程式")
+                    Text("２次方程式")
+                    Text("３次方程式")
+                    Text("１次不等式")
+                    Text("２次不等式")
+                    Text("３次方程式")
+                }
+
+            }
         }
     }
 }
