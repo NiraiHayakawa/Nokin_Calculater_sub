@@ -10,8 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image("blackboard")
+        ZStack {
+            Image("FormulaBlackboard")
+                .resizable()
                 .aspectRatio(contentMode:.fill)
             Text("Let’s look for a solution !")
                 .foregroundColor(.init(red: 255, green: 0, blue: 0))
